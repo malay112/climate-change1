@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Air\Effects\Posts - EarthoKnowledge</title>
+    <link rel="shortcut icon" href="https://o.remove.bg/downloads/c0c3eb86-8f2f-4785-94b1-2923155e5899/Climate-Change_logo-removebg-preview.png"/>
+
+    <style>
+        footer {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            background-color: #cccccc;
+            color: white;
+            text-align: center;
+        }
+
+        #Head:hover {
+            background-color: yellow;
+            transition: 3s;
+        }
+
+        #navbar {
+            top: 0;
+            position: sticky;
+            color: #cccccc;
+        }
+
+        #check:hover {
+            color: #1a1a1a;
+        }
+
+        #navcheck {
+            margin-left: 20px;
+            top: 0;
+            position: sticky;
+        }
+
+        .web {
+            border-right: 1px solid blue;
+        }
+        #img{
+            float:left;
+             margin-right: 10px;
+             border-radius: 8px; border: 1px solid black;
+             width: 500px;
+        }
+        #img:hover{
+            border: 1px solid red;
+        }
+        hr{
+            border-top: none;
+            border: 1px solid grey;
+        }
+
+#ending:hover {
+    border-bottom: 1px solid grey;
+    transition: 0.3s;
+}
+#navcheck:hover{
+    border-bottom: 1px solid grey;
+    transition: 0.3s;
+}
+        #title{
+            color: lightgreen;
+        }
+        #ending{
+            margin-left: 750px;
+        }
+        #navcheck{
+            margin-left: 15px;
+        }
+        #ways{
+            list-style-type: square;
+            margin-left: 19px;
+        }
+    </style>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a id="title" class="navbar-brand" href="home.html">EarthoKnowledge</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item " id="navcheck">
+                <a class="nav-link" href="home.html" 0><i class="fa fa-home"> Home</i> <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item " id="navcheck">
+                <a class="nav-link" href="Feedback.html"><i class="fa fa-comments-o"> Feedback </i></a>
+            </li>
+            <li class="nav-item active" id="navcheck">
+                <a class="nav-link" href="posts.html"><i class="fa fa-archive"> Posts </i></a>
+            </li>
+            <li class="nav-item" id="ending">
+                <a class="nav-link" href="contact.html"><i class="fa fa-phone"> Contact Us</i></a>
+            </li>
+            <li class="nav-item" id="navcheck">
+                <a class="nav-link" href="about.html"><i class="fa fa-user"> About Us</i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</head>
+
+<body>
+    <div class="alert alert-primary" role="alert">
+        Plant 1 tree at your home. if every person will plant 1 tree then there will be 7,817,367,026 plants!
+    </div>
+
+    <h1 style="color: #cccccc;"> <center> <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> Climate Change Effect on Water</marquee> </center> </h1>
+
+<div style="margin-left: 15px;">
+    <img id="img"src="data:image/jpeg;base64,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">
+ <p>Climate change has effect on land too. Species on land are also affected by climate change. Even humans
+    are affected by climate change. Here are some impacts of climate change on land.</p>
+    <p>Air quality is strongly dependent on weather and is therefore sensitive to climate change. Recent studies have provided estimates of this climate effect through correlations of air quality with meteorological variables, perturbation analyses in chemical transport models (CTMs), and CTM simulations driven by general circulation model (GCM) simulations of 21st-century climate change. We review these different approaches and their results. The future climate is expected to be more stagnant, due to a weaker global circulation and a decreasing frequency of mid-latitude cyclones. The observed correlation between surface ozone and temperature in polluted regions points to a detrimental effect of warming. Coupled GCM–CTM studies find that climate change alone will increase summertime surface ozone in polluted regions by 1–10 ppb over the coming decades, with the largest effects in urban areas and during pollution episodes. This climate penalty means that stronger emission controls will be needed to meet a given air quality standard. Higher water vapor in the future climate is expected to decrease the ozone background, so that pollution and background ozone have opposite sensitivities to climate change. The effect of climate change on particulate matter (PM) is more complicated and uncertain than for ozone. Precipitation frequency and mixing depth are important driving factors but projections for these variables are often unreliable. GCM–CTM studies find that climate change will affect PM concentrations in polluted environments by ±0.1–1 μg m−3 over the coming decades. Wildfires fueled by climate change could become an increasingly important PM source. Major issues that should be addressed in future research include the ability of GCMs to simulate regional air pollution meteorology and its sensitivity to climate change, the response of natural emissions to climate change, and the atmospheric chemistry of isoprene. Research needs to be undertaken on the effect of climate change on mercury, particularly in view of the potential for a large increase in mercury soil emissions driven by increased respiration in boreal ecosystems.
+
+    </p>        
+
+</div>
+<hr>
+<footer class="text-gray-700 body-font">
+    <div
+    class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="home.html" style="cursor:pointer;">
+            <img src="https://o.remove.bg/downloads/44a82bdf-9096-46bd-971c-9da24dd8f67d/Climate-Change_logo-removebg-preview-removebg-preview.png" style="width: 50px;">
+            <span class="ml-3 text-xl">EarthoKnowledge</span>
+        </a>
+        <p class="mt-2 text-sm text-gray-500">This website will tell you everything about climate change</p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Sitemap</h2>
+            <nav class="list-none mb-10">
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" href="home.html">Home</a>
+                </li>
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" href="aboutus.html">About us</a>
+                </li>
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" href="feedback.html">Feedback</a>
+                </li>
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" href="posts.html">Posts</a>
+                    </li>
+            </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Know More</h2>
+            <nav class="list-none mb-10">
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" target="_blank" href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" target="_blank" href="about.html">About Us</a>
+                </li>
+            </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Good To Know</h2>
+            <nav class="list-none mb-10">
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" href="posts.html">Post Feed</a>
+                </li>
+            </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Sources</h2>
+            <nav class="list-none mb-10">
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" href="https://source.unsplash.com" target="_blank">Unsplash</a>
+                </li>
+                <li>
+                    <a class="text-gray-600 hover:text-gray-800" href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+                </li>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<p>Copyright &copy; 2020 Malay and Mudith</p>
+
+
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
